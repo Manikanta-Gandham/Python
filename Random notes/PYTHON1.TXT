@@ -1,0 +1,33 @@
+1) Programming Knowledge.
+2) Dynamically typed language.
+3) Functional programming languages
+4)
+
+Where can be used?
+
+1) Desktop Application
+2) Web applications --> Django...
+3)
+
+for loop
+========>
+for i in range(10)
+  print(i)
+
+
+for i in range(10)
+   print(i)
+
+x = 10 if a>b else 20
+
+Simple and easy to learn. 30 reserved key words.
+
+Open source.
+
+JYTHON -> Jpython --> to work with java applications.
+
+
+
+
+
+

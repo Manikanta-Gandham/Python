@@ -1,0 +1,411 @@
+Swapping don't need to use temp
+===============================
+a,b = 10,20
+a,b = b,a
+print(a,b)
+
+Python Characterstics
+======================
+1) Functional--> c
+2) Object Oriented --> C++
+3) scripting language --> perl and shell
+4) Modular pogramming --> Modular 3
+
+One by One line execution-->scripting
+
+
+Functional
+==========
+
+def f1():
+    print("hello")
+
+f1()
+
+Object Oriented
+===============
+class Test:
+    def m1(self):
+        print("class")
+
+t = Test()
+t.m1()
+
+Dynamically typed
+=================
+
+1) Programming Knowledge.
+2) Dynamically typed language.
+3) Functional programming languages
+4)
+
+Where can be used?
+
+1) Desktop Application
+2) Web applications --> Django...
+3)
+
+for loop
+========>
+for i in range(10)
+  print(i)
+
+
+for i in range(10)
+   print(i)
+
+x = 10 if a>b else 20
+
+Simple and easy to learn. 30 reserved key words.
+
+Open source.
+
+JYTHON -> Jpython --> to work with java applications.
+
+
+Platform Independent
+====================
+
+for i in range(10):
+    print("I will get a job")
+
+    It can run on all machines windows, linux, mac
+    code is independent for any OS.
+    pvm software is responsible for convrting python code into os sepecific code.
+    PVM FOR Windows, PVM for linux, Pvm for Mac some thing like that.
+
+    python 2.3
+
+Flavors
+=======
+Cpython.. to work with Clanguage
+Jython.. work with java
+IronPython.. .net
+pypy.. python for speed
+     JIT Compiler
+Ruby Python
+Anaconda Python
+
+
+Identifiers
+============
+# Cannot be used in Identifiers
+$ is not allowed
+
+allowed characters are
+
+o-9
+a-z
+A-Z
+_
+
+Identifier should not start with digit
+
+No length limit
+
+reserved words cannot be used
+
+_mani_ ==> means they are language level. not recommeded to use _ and _ at start and end.
+
+
+Reserved words
+===============
+True, False, None ( null in another language).
+and, or, not, is
+if, else, elif
+while, for, break, continue, return, in, yield
+try,except,finally, raise
+import, from, as, class, def, pass, global, nonlocal, lambda,del, with, from
+
+
+Data Types:
+===========
+We don't need to explicitly specify type.
+Under lying data Types
+=====================
+fundamental
+===========
+1) int only
+2) float
+3) complex ( 5 + 10j)
+4) bool
+5) str, char not available in python
+
+sequential
+==========
+1) bytes
+2) bytearray
+3) range
+4) list
+5) tuple
+6) set
+7) dict
+8) frozenset
+
+ 1) none
+
+ ==========================
+ to know type
+ -------------
+ type(x)
+
+ to print
+ -------------
+ print(x)
+
+ to get address
+ -------------
+ id(x)
+ forms
+======
+ A = 123
+ 1) Decimal form(Base -10)
+ 2) Binary form( Base -2)
+  0 and 1
+  a = 0B1111 gives decimal form for 1111
+  or a = 0b1111
+ 3) Octal form(Base -8)
+  a = 0o1111 gives decimal form for octal form 1111
+ 4) Hexadecimal form(Base -16)
+  0 to 9 , A-F, a-f
+  a = 0XFace
+
+Base conversions
+================
+anytype to binary
+bin()
+
+anytype ot oct
+oct()
+
+anytype to Hexadecimal
+hex()
+
+rteurn type is string. so we cannot use multiple function on  a single number
+
+after type casting result we can do what we want.
+
+========================================================
+float can only use Decimal form or exponential form
+
+
+example
+f = 1.2222222e3
+1.222222 x 10 x10 x10
+
+=============================================================
+
+complex forms
+a = 10+ 5j
+we can only use j for complex numbers
+a.real = 10
+a.imag = 5j
+
+================================
+string
+s = 'durga'
+s = "durga"
+
+
+To define multiline string literals
+====================================
+''' jhejfj
+    hjdjfkjsdflk
+    hdshfnjesf '''
+
+In python both postive and negative index is possible
+=====================================================
+
+A  B  C  D  E
+^  ^  ^  ^  ^
+0  1  2  3  4
+
+-5 -4 -3 -2 -1
+
+In python we have
+S[begin:end:step] ==== this is slice operator
+S[::1]
+S[1:]
+S[:4]
+
+begin index to end-1 Identifiers
+
+
+S[1:6] -> substring 1 to 6-1
+
+s = "abcdefhi"
+s[1:6] ===> bcdef
+
+end === end of string default
+begin == begining of string default
+
+s[2::] or s[2:] = cdefghi
+
+s[:5] abcde
+
+s[:] comlete string
+
+type conversions
+=================
+boolean-> int possible
+float-> int possible
+str-> int possible
+
+Comlpex-> int not possible
+
+# n1 = input("Eneter number ")
+# n2 = input("Enetr number 2")
+# print('sum is ', int(n1) + int(n2) )
+
+print(float(0B1111))
+
+
+
+
+complex(1, 2)  === 1 + 2j
+complex(1) === 1 + 0j
+
+
+bool type restriction
+=====================
+
+1. int to bool
+2. str to bool
+3. float to bool
+
+
+str --> any type
+===================================================
+
+immutable  means we are not allowed to perform any changes
+list is mutable
+
+string is immutable
+
+
+
+Once we create an object we are not allowed to perform any change sin the exsiting objects. if we change new object will be created for that r3espone
+
+
+immutable
+=========
+String
+ all fundamental data types are immutable
+incase of float always new object is created
+
+list
+====
+mutable --- Most commonly used data type.
+
+l = [10, 20, 30 , 40 ,50]
+insertion order preserved
+
+index and slic operator applicable
+we can cyhange content and new object is not created in memory.  mutable
+
+Js          python
+
+push        append
+
+a.length    len(a) ==> a can be string and list
+
+
+
+tuple(10,20,30) ==> you can't modify tuple. cannot add or remove or change anything.Immutable just like string.
+read only version of array is tuple
+
+if the content is fixed go for tuple
+
+can be used in servers.
+
+set
+===
+Duplicate are not allowed but in list duplicate sare allowed
+Insertion order is not preserved
+mutable
+[]--> list
+()--> tuple
+{}--> set
+
+s = { 1,2 ,3}
+print(s)  { 1,2,3}
+
+s = {1,2,2,2}
+print(s) {1,2}
+
+s = {1,1,"MANI", True, 0}
+print(s) {0, 1, 'MANI'}
+
+s = {1,2,3}
+s1 = {2,1,3 }
+s2 = {3,2,1}
+s1 and s2 and s3 are same
+Index teminology is not applicable for set
+
+list: append()--> adds last
+set: add()--> we never know. depends on hash code
+
+
+simple requirent
+================
+
+I want to immuatable set--> then go for frozenset
+we cannot use add and remove operations on forzen set
+
+dict Data type
+===============
+dict means dictionary
+
+key-->value pairs
+
+roll num - name
+mobile - address
+
+[] -> list
+() -> tuple
+{} -> set
+{} -> dict  by default means curly braces means dictionary
+
+Among set and dictionary most commonly used is dictionary
+List and dictionary.
+
+>>> x = { 1,2}
+>>> type(x)
+<class 'set'>
+
+to declare empty set
+a = set()
+
+
+Escape characters
+\n --- new line
+\t --- horizantal tab
+\b -- back space
+\f ---- form frozenset\v - vertical tan
+...........
+
+
+Contants
+========
+Any varibale with only upper case constants
+
+** Exponent or operator or power operator
+/ divisionm
+// --> floor division operator
+
+logical
+=======
+
+and or not
+
+Bitwise operators:
+==================
+& | ^ f ~ << >> for int and bool type
+Exclusive or
+1 or 0
+0 or 1   then 1
+
+if both bits are diffrent result is 1 else result is 
+
+print(a,b,c , sep = "")
+{}  format fillers
